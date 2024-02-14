@@ -1,0 +1,310 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.page-width{
+    max-width: 1224px;
+    margin: 0 auto;
+}
+.first-wrapper{
+    background: url('images/layer_364.png') no-repeat center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: bottom center ;
+    
+}
+.second-wrapper{
+    background: url('images/layer_364.png') no-repeat center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center top;
+}
+.header-icon-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@font-face {
+    font-family: Abril ;
+    src: url('fonts/AbrilFatface-Regular.ttf');
+  }
+  @font-face {
+    font-family: cookie;
+    src: url('fonts/Cookie-Regular.ttf');
+  }
+span.header-connect {
+    color: #8d0128;
+    font-family: Abril , display;   
+    font-size: 3.25rem;
+}
+.header-icon-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #999999;
+    font-family: Cookie, handwriting;
+    font-size: 3.5rem;
+}
+.first-main-wrapper.page-width {
+    display: flex;
+    flex-direction: column;
+    /* gap: 15px; */
+}
+.header-about-text {
+    display: flex;
+    justify-content: space-between;
+    width: 1123px;
+}
+.text1 {
+    color: #222222;
+    font-family: Abril, display;
+    font-size: 1.375rem;
+    letter-spacing: 0.02em;
+}
+
+.text1-style {
+    color: #555555;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 0;
+}
+.text2 {
+    margin: 6px 0 0;
+    color: #2d2d2d;
+}
+
+.first-main-cards {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.second-main-cards{
+    padding-top: 40px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card {
+    width: calc(33% - 6rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-img {
+    border-radius: 50%;
+    padding: 40px;
+}
+.card-1 .card-img{
+    border: 4px solid #f39c12;
+}
+.card-2 .card-img{
+    border: 4px solid #29d000;
+}
+.card-3 .card-img{
+    border: 4px solid #ff0000;
+}
+.card-text {
+    text-align: center;
+    line-height: 25px;
+    padding-top: 10px;
+}
+span.text-style3 {
+    color: #555555;
+    font-family: Cookie, handwriting;
+    font-size: 2.5rem;
+    letter-spacing: 0.02em;
+}
+
+.layer-415 {
+    height: 3px;
+    margin: 12px auto 0;
+    width: 98px;
+    background: #d2d2d2;
+}
+.card-head {
+    font-family: Abril , display;
+    font-size: 1.875rem;
+    text-align: center;
+    padding-top: 10px;
+}
+.card-1 .card-head {
+    color: #f39c12;
+}
+.card-2 .card-head {
+    color: #29d000;
+}
+.card-3 .card-head {
+    color: #ff0000;
+}
+.second-main-cards .card {
+    overflow: hidden;
+}
+.btn p {
+    padding: 18px 0 16px;
+    position: relative;
+    width: 173px;
+    border-radius: 24px;
+    background: #555555;
+    text-align: center;
+}
+.btn p:nth-child(2){
+    background: #f39c12;   
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 50px;
+}
+.layer-365-copy {
+    height: 10px;
+    margin: 17px 4px 0;
+    position: relative;
+    width: 1200px;
+    z-index: 64;
+    background-color: #8e0028;
+}
+.second-img {
+    margin: 19px 111px  0  0;
+}
+
+.second-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.scond-text1 {
+    color: #222222;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.scond-text2 {
+    margin: -4px 0 0;
+    position: relative;
+    color: #f2a814;
+    font-family: Abril, display;
+    font-size: 4.0625rem;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.scond-text3 {
+    margin: -3px 0 0;
+    position: relative;
+    color: #222222;
+    font-family: Cookie, handwriting;
+    font-size: 2.875rem;
+    text-align: center;
+}
+.second-wrapper {
+    padding: 120px 0;
+}
+.second-main-cards .card{
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0px 0px  5px 0px;
+}
+.second-main-cards .card.card-2 {
+    padding-top: 153px;
+    padding-bottom: 45px;
+}
+
+.second-main-cards .card.card-3 {
+    padding-top: 46px;
+    padding-bottom: 67px;
+}
+.second-main-cards .layer-420 {
+    height: 1px;
+    margin: 20px 0px 0;
+    width: 385px;
+    background: #dddddd;
+}
+@media screen and (max-width:1024px) {
+
+    .page-width{
+        padding: 0px 24px;
+    }
+    .header-about-text {
+        width: unset;
+        display: block;
+        text-align: center;
+    }
+.header-icon-text {
+    justify-content: center;
+}
+.second-img{
+    margin: 0;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+.second-header{
+    justify-content: center;
+}
+
+.card {
+    width: calc(50% - 10px);
+}
+.layer-365-copy{
+    width: unset;
+}
+}
+@media screen and (max-width:480px) {
+    .card {
+        width: 100%;
+    }
+    .header-text {
+        font-size: 24px;
+    }
+    
+    span.header-connect {
+        font-size: 24px;
+    }
+    
+    p.text1 {
+        font-size: 18px;
+    }
+    
+    p.text2 {
+        font-size: 14px;
+    }
+    
+    .card-head {
+        font-size: 24px;
+    }
+    
+    .scond-text2 {
+        font-size: 26px;
+    }
+    
+    .scond-text1 {
+        font-size: 18px;
+    }
+    
+    .scond-text3 {
+        font-size: 23px;
+    }
+    
+    span.text-style3 {
+        font-size: 24px;
+    }
+    
+    .card-head {
+        font-size: 20px;
+    }
+}
